@@ -4,7 +4,7 @@
  */
 
 // modify bootstrap classes based on genesis_site_layout
-add_filter('bsg-classes-to-add', 'bsg_modify_classes_based_on_template', 10, 3);
+//add_filter('bsg-classes-to-add', 'bsg_modify_classes_based_on_template', 10, 3);
 
 // remove unused layouts
 

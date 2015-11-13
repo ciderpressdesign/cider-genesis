@@ -2,6 +2,10 @@
 * Sass (http://sass-lang.com/) file to generate theme.css
 */
 
+/* SUSY Grid System */
+
+@import "../../bower_components/susy/sass/susy";
+
 /* Bootstrap Core Override Variables
 ------------------------------------------------------------ */
 @import "supporting/variables-bootstrap-core-override";
@@ -59,3 +63,6 @@
 /* Skip to Main Content - Accessibility Link
 ------------------------------------------------------------ */
 @import "supporting/skip-to-main-content";
+
+/* Main Content Layout */
+@import 'supporting/maincontent';

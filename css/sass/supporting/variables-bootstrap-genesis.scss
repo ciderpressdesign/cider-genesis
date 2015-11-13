@@ -11,3 +11,9 @@ $commentBgColor: $body-bg;
 $commentBorderColor: $body-bg;
 $singleCommentBgColor: $panel-default-heading-bg;
 $singleCommentPostAuthorBgColor: $state-warning-bg;
+
+$susy: (
+        columns: 12,
+        global-box-sizing: border-box,
+        debug: (image: show)
+);
